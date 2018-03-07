@@ -4,9 +4,10 @@
   "description": "test webpack4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "export NODE_ENV=dev && webpack --mode development --progress --colors",
+    "pro": "export NODE_ENV=pro && webpack --mode production -p --progress --colors"
   },
-  "author": "",
+  "author": "yutianjian",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^8.1.0",
