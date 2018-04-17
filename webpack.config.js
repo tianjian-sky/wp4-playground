@@ -2,10 +2,9 @@ var path = require('path')
 var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var rootPath = path.resolve(__dirname, './')
-// var ExtractTextPlugin = require('extract-text-webpack-plugin') 报错！
+var ExtractTextPlugin = require('extract-text-webpack-plugin')
 // var phpHost = ''
 // var studioHost = ''
-console.log(process.env.NODE_ENV)
 module.exports = {
     // devtool: 'source-map',
     entry: {
@@ -18,7 +17,7 @@ module.exports = {
     resolve: {
     },
     plugins: [
-        // new ExtractTextPlugin('style.[contenthash].css'),
+        new ExtractTextPlugin('style.[chunkhash].css'),  // extractTextPlugin 使用chunkhash
         new HtmlWebpackPlugin({
             filename: 'main.html',
             template: './src/templates/main.html',
@@ -60,24 +59,24 @@ module.exports = {
         },
         {
             test: /\.css$/,
-            use: [
-                {loader: 'style-loader'},
-                {loader: 'css-loader'},
-                {loader: 'postcss-loader'}
-            ]
-            // use: ExtractTextPlugin.extract({
-            //     fallback: 'style-loader',
-            //     use: ['css-loader', 'postcss-loader']
-            //   })
+            // use: [
+            //     {loader: 'style-loader'},
+            //     {loader: 'css-loader'},
+            //     {loader: 'postcss-loader'}
+            // ]
+            use: ExtractTextPlugin.extract({
+                fallback: 'style-loader',
+                use: ['css-loader', 'postcss-loader']
+              })
             // use: ['style-loader', 'css-loader', 'postcss-loader']
         },
         {
             test: /\.less$/,
-            use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader']
-            // use: ExtractTextPlugin.extract({
-            //     fallback: 'style-loader',
-            //     use: ['css-loader', 'postcss-loader', 'less-loader']
-            //   })
+            // use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader']
+            use: ExtractTextPlugin.extract({
+                fallback: 'style-loader',
+                use: ['css-loader', 'postcss-loader', 'less-loader']
+              })
         },
         {
             test: /\.(png|jpg|gif)$/,
