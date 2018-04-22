@@ -4,8 +4,8 @@
   "description": "test webpack4",
   "main": "index.js",
   "scripts": {
-    "dev": "export NODE_ENV=dev && webpack --mode development --progress --colors",
-    "pro": "export NODE_ENV=pro && webpack --mode production --progress --colors"
+    "dev": "export NODE_ENV=dev && webpack --mode development --progress --colors --display-modules  --sort-modules-by size  --profile --json > stats.json",
+    "pro": "export NODE_ENV=pro && webpack --mode production --progress --colors --display-modules  --sort-modules-by size"
   },
   "author": "yutianjian",
   "license": "ISC",
