@@ -2,23 +2,23 @@
   "errors": [],
   "warnings": [],
   "version": "4.5.0",
-  "hash": "c45522f5b83d3094a3d0",
-  "time": 1278,
-  "builtAt": 1524386536947,
+  "hash": "3ee577654a89e07a086a",
+  "time": 1337,
+  "builtAt": 1524662806292,
   "publicPath": "",
   "outputPath": "/Users/gutakashiken/test/webpack4/dist/",
   "assetsByChunkName": {
     "main": [
-      "main.js?adfcf3f27949fe47433a",
-      "style.css？adfcf3f27949fe47433a"
+      "main.js?b9fa031c1ee1bd781d06",
+      "style.css？b9fa031c1ee1bd781d06"
     ],
     "runtime~main": "runtime~main.js?e038d5d45d303fb8b453",
     "vendors~main": "vendors~main.js?f2bf45b59680d62c75f7"
   },
   "assets": [
     {
-      "name": "main.js?adfcf3f27949fe47433a",
-      "size": 5829,
+      "name": "main.js?b9fa031c1ee1bd781d06",
+      "size": 6299,
       "chunks": [
         "main"
       ],
@@ -50,8 +50,8 @@
       "emitted": true
     },
     {
-      "name": "style.css？adfcf3f27949fe47433a",
-      "size": 1893,
+      "name": "style.css？b9fa031c1ee1bd781d06",
+      "size": 1922,
       "chunks": [
         "main"
       ],
@@ -79,8 +79,8 @@
       "assets": [
         "runtime~main.js?e038d5d45d303fb8b453",
         "vendors~main.js?f2bf45b59680d62c75f7",
-        "main.js?adfcf3f27949fe47433a",
-        "style.css？adfcf3f27949fe47433a"
+        "main.js?b9fa031c1ee1bd781d06",
+        "style.css？b9fa031c1ee1bd781d06"
       ]
     }
   },
@@ -90,15 +90,15 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 3043,
+      "size": 3104,
       "names": [
         "main"
       ],
       "files": [
-        "main.js?adfcf3f27949fe47433a",
-        "style.css？adfcf3f27949fe47433a"
+        "main.js?b9fa031c1ee1bd781d06",
+        "style.css？b9fa031c1ee1bd781d06"
       ],
-      "hash": "adfcf3f27949fe47433a",
+      "hash": "b9fa031c1ee1bd781d06",
       "siblings": [
         "runtime~main",
         "vendors~main"
@@ -111,7 +111,7 @@
           "identifier": "multi console-polyfill ./src/main.js",
           "name": "multi console-polyfill ./src/main.js",
           "index": 0,
-          "index2": 11,
+          "index2": 13,
           "size": 40,
           "built": true,
           "optional": false,
@@ -147,6 +147,34 @@
           "depth": 0
         },
         {
+          "id": "./src/globalStyle/a.less",
+          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!/Users/gutakashiken/test/webpack4/node_modules/style-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+          "name": "./src/globalStyle/a.less",
+          "index": null,
+          "index2": null,
+          "size": 41,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": null,
+          "source": "// removed by extract-text-webpack-plugin"
+        },
+        {
           "id": "./src/globalStyle/global.less",
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!/Users/gutakashiken/test/webpack4/node_modules/style-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/global.less",
           "name": "./src/globalStyle/global.less",
@@ -178,8 +206,8 @@
           "id": "./src/modules/d.js",
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/d.js",
           "name": "./src/modules/d.js",
-          "index": 9,
-          "index2": 6,
+          "index": 11,
+          "index2": 8,
           "size": 225,
           "cacheable": true,
           "built": true,
@@ -206,8 +234,8 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 213,
-                "building": 105
+                "factory": 204,
+                "building": 284
               }
             },
             {
@@ -215,15 +243,15 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/a.js",
               "name": "./src/modules/a.js",
               "profile": {
-                "factory": 280,
-                "building": 240,
-                "dependencies": 243
+                "factory": 338,
+                "building": 213,
+                "dependencies": 217
               }
             }
           ],
           "profile": {
-            "factory": 263,
-            "building": 36
+            "factory": 238,
+            "building": 33
           },
           "failed": false,
           "errors": 0,
@@ -261,8 +289,8 @@
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
           "name": "./src/main.js",
           "index": 2,
-          "index2": 10,
-          "size": 445,
+          "index2": 12,
+          "size": 465,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -285,8 +313,8 @@
             }
           ],
           "profile": {
-            "factory": 213,
-            "building": 105
+            "factory": 204,
+            "building": 284
           },
           "failed": false,
           "errors": 0,
@@ -308,14 +336,14 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1,
-          "source": "'use strict';\n\nrequire('./globalStyle/global.less');\n\nvar _a = require('./modules/a');\n\nvar _b = require('./modules/b');\n\nvar _npmZepto = require('npm-zepto');\n\nvar _npmZepto2 = _interopRequireDefault(_npmZepto);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar hello = 'hello world';\ndocument.getElementById('root').innerHTML = hello;\n_a.a.say();\n_b.b.say();\nconsole.log(_npmZepto2.default);"
+          "source": "'use strict';\n\nrequire('./globalStyle/global.less');\n\nrequire('./globalStyle/a.less');\n\nvar _a = require('./modules/a');\n\nvar _b = require('./modules/b');\n\nvar _npmZepto = require('npm-zepto');\n\nvar _npmZepto2 = _interopRequireDefault(_npmZepto);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar hello = 'hello world';\ndocument.getElementById('root').innerHTML = hello;\n_a.a.say();\n_b.b.say();\nconsole.log('aa');"
         },
         {
           "id": "./src/modules/a.js",
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/a.js",
           "name": "./src/modules/a.js",
-          "index": 8,
-          "index2": 7,
+          "index": 10,
+          "index2": 9,
           "size": 1146,
           "cacheable": true,
           "built": true,
@@ -342,15 +370,15 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 213,
-                "building": 105
+                "factory": 204,
+                "building": 284
               }
             }
           ],
           "profile": {
-            "factory": 280,
-            "building": 240,
-            "dependencies": 243
+            "factory": 338,
+            "building": 213,
+            "dependencies": 217
           },
           "failed": false,
           "errors": 0,
@@ -364,7 +392,7 @@
               "moduleName": "./src/main.js",
               "type": "cjs require",
               "userRequest": "./modules/a",
-              "loc": "5:9-31"
+              "loc": "7:9-31"
             }
           ],
           "providedExports": null,
@@ -378,8 +406,8 @@
           "id": "./src/modules/b.js",
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/b.js",
           "name": "./src/modules/b.js",
-          "index": 10,
-          "index2": 8,
+          "index": 12,
+          "index2": 10,
           "size": 1146,
           "cacheable": true,
           "built": true,
@@ -406,15 +434,15 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 213,
-                "building": 105
+                "factory": 204,
+                "building": 284
               }
             }
           ],
           "profile": {
-            "factory": 280,
-            "building": 240,
-            "dependencies": 243
+            "factory": 338,
+            "building": 213,
+            "dependencies": 217
           },
           "failed": false,
           "errors": 0,
@@ -428,7 +456,7 @@
               "moduleName": "./src/main.js",
               "type": "cjs require",
               "userRequest": "./modules/b",
-              "loc": "7:9-31"
+              "loc": "9:9-31"
             }
           ],
           "providedExports": null,
@@ -531,8 +559,8 @@
             }
           ],
           "profile": {
-            "factory": 213,
-            "building": 105
+            "factory": 204,
+            "building": 284
           },
           "failed": false,
           "errors": 0,
@@ -560,8 +588,8 @@
           "id": "./node_modules/npm-zepto/index.js",
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/npm-zepto/index.js",
           "name": "./node_modules/npm-zepto/index.js",
-          "index": 11,
-          "index2": 9,
+          "index": 13,
+          "index2": 11,
           "size": 56025,
           "cacheable": true,
           "built": true,
@@ -588,15 +616,15 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 213,
-                "building": 105
+                "factory": 204,
+                "building": 284
               }
             }
           ],
           "profile": {
-            "factory": 280,
-            "building": 240,
-            "dependencies": 243
+            "factory": 338,
+            "building": 213,
+            "dependencies": 217
           },
           "failed": false,
           "errors": 0,
@@ -610,7 +638,7 @@
               "moduleName": "./src/main.js",
               "type": "cjs require",
               "userRequest": "npm-zepto",
-              "loc": "9:16-36"
+              "loc": "11:16-36"
             }
           ],
           "providedExports": null,
@@ -639,7 +667,7 @@
       "identifier": "multi console-polyfill ./src/main.js",
       "name": "multi console-polyfill ./src/main.js",
       "index": 0,
-      "index2": 11,
+      "index2": 13,
       "size": 40,
       "built": true,
       "optional": false,
@@ -703,11 +731,77 @@
       "source": "// removed by extract-text-webpack-plugin"
     },
     {
+      "id": "./src/globalStyle/a.less",
+      "identifier": "/Users/gutakashiken/test/webpack4/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!/Users/gutakashiken/test/webpack4/node_modules/style-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+      "name": "./src/globalStyle/a.less",
+      "index": null,
+      "index2": null,
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null,
+      "source": "// removed by extract-text-webpack-plugin"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+      "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+      "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+      "index": 9,
+      "index2": 6,
+      "size": 194,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/gutakashiken/test/webpack4/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!/Users/gutakashiken/test/webpack4/node_modules/style-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+      "issuerId": "./src/globalStyle/a.less",
+      "issuerName": "./src/globalStyle/a.less",
+      "issuerPath": [
+        {
+          "id": "./src/globalStyle/a.less",
+          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!/Users/gutakashiken/test/webpack4/node_modules/style-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+          "name": "./src/globalStyle/a.less"
+        }
+      ],
+      "profile": {
+        "factory": 172,
+        "building": 295
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3,
+      "source": "exports = module.exports = require(\"../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"body {\\n  background: gray;\\n}\\n\", \"\"]);\n\n// exports\n"
+    },
+    {
       "id": "./src/modules/d.js",
       "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/d.js",
       "name": "./src/modules/d.js",
-      "index": 9,
-      "index2": 6,
+      "index": 11,
+      "index2": 8,
       "size": 225,
       "cacheable": true,
       "built": true,
@@ -734,8 +828,8 @@
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 213,
-            "building": 105
+            "factory": 204,
+            "building": 284
           }
         },
         {
@@ -743,15 +837,15 @@
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/a.js",
           "name": "./src/modules/a.js",
           "profile": {
-            "factory": 280,
-            "building": 240,
-            "dependencies": 243
+            "factory": 338,
+            "building": 213,
+            "dependencies": 217
           }
         }
       ],
       "profile": {
-        "factory": 263,
-        "building": 36
+        "factory": 238,
+        "building": 33
       },
       "failed": false,
       "errors": 0,
@@ -789,8 +883,8 @@
       "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
       "name": "./src/main.js",
       "index": 2,
-      "index2": 10,
-      "size": 445,
+      "index2": 12,
+      "size": 465,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -813,8 +907,8 @@
         }
       ],
       "profile": {
-        "factory": 213,
-        "building": 105
+        "factory": 204,
+        "building": 284
       },
       "failed": false,
       "errors": 0,
@@ -836,7 +930,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 1,
-      "source": "'use strict';\n\nrequire('./globalStyle/global.less');\n\nvar _a = require('./modules/a');\n\nvar _b = require('./modules/b');\n\nvar _npmZepto = require('npm-zepto');\n\nvar _npmZepto2 = _interopRequireDefault(_npmZepto);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar hello = 'hello world';\ndocument.getElementById('root').innerHTML = hello;\n_a.a.say();\n_b.b.say();\nconsole.log(_npmZepto2.default);"
+      "source": "'use strict';\n\nrequire('./globalStyle/global.less');\n\nrequire('./globalStyle/a.less');\n\nvar _a = require('./modules/a');\n\nvar _b = require('./modules/b');\n\nvar _npmZepto = require('npm-zepto');\n\nvar _npmZepto2 = _interopRequireDefault(_npmZepto);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar hello = 'hello world';\ndocument.getElementById('root').innerHTML = hello;\n_a.a.say();\n_b.b.say();\nconsole.log('aa');"
     },
     {
       "id": "./node_modules/console-polyfill/index.js",
@@ -867,8 +961,8 @@
         }
       ],
       "profile": {
-        "factory": 213,
-        "building": 105
+        "factory": 204,
+        "building": 284
       },
       "failed": false,
       "errors": 0,
@@ -893,75 +987,11 @@
       "source": "// Console-polyfill. MIT license.\n// https://github.com/paulmillr/console-polyfill\n// Make it safe to do console.log() always.\n(function(global) {\n  'use strict';\n  if (!global.console) {\n    global.console = {};\n  }\n  var con = global.console;\n  var prop, method;\n  var dummy = function() {};\n  var properties = ['memory'];\n  var methods = ('assert,clear,count,debug,dir,dirxml,error,exception,group,' +\n     'groupCollapsed,groupEnd,info,log,markTimeline,profile,profiles,profileEnd,' +\n     'show,table,time,timeEnd,timeline,timelineEnd,timeStamp,trace,warn').split(',');\n  while (prop = properties.pop()) if (!con[prop]) con[prop] = {};\n  while (method = methods.pop()) if (!con[method]) con[method] = dummy;\n  // Using `this` for web workers & supports Browserify / Webpack.\n})(typeof window === 'undefined' ? this : window);\n"
     },
     {
-      "id": "./src/modules/a.js",
-      "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/a.js",
-      "name": "./src/modules/a.js",
-      "index": 8,
-      "index2": 7,
-      "size": 1146,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        "main"
-      ],
-      "issuer": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
-      "issuerId": "./src/main.js",
-      "issuerName": "./src/main.js",
-      "issuerPath": [
-        {
-          "id": 0,
-          "identifier": "multi console-polyfill ./src/main.js",
-          "name": "multi console-polyfill ./src/main.js",
-          "profile": {
-            "factory": 0,
-            "building": 1
-          }
-        },
-        {
-          "id": "./src/main.js",
-          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
-          "name": "./src/main.js",
-          "profile": {
-            "factory": 213,
-            "building": 105
-          }
-        }
-      ],
-      "profile": {
-        "factory": 280,
-        "building": 240,
-        "dependencies": 243
-      },
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [],
-      "reasons": [
-        {
-          "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
-          "module": "./src/main.js",
-          "moduleName": "./src/main.js",
-          "type": "cjs require",
-          "userRequest": "./modules/a",
-          "loc": "5:9-31"
-        }
-      ],
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 2,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports.a = undefined;\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _d = require('./d');\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar A = function () {\n    function A() {\n        _classCallCheck(this, A);\n    }\n\n    _createClass(A, [{\n        key: 'say',\n        value: function say() {\n            console.log('say hello a!');\n            (0, _d.d_a)();\n        }\n    }]);\n\n    return A;\n}();\n\nvar a = exports.a = new A();"
-    },
-    {
       "id": "./src/modules/b.js",
       "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/b.js",
       "name": "./src/modules/b.js",
-      "index": 10,
-      "index2": 8,
+      "index": 12,
+      "index2": 10,
       "size": 1146,
       "cacheable": true,
       "built": true,
@@ -988,15 +1018,15 @@
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 213,
-            "building": 105
+            "factory": 204,
+            "building": 284
           }
         }
       ],
       "profile": {
-        "factory": 280,
-        "building": 240,
-        "dependencies": 243
+        "factory": 338,
+        "building": 213,
+        "dependencies": 217
       },
       "failed": false,
       "errors": 0,
@@ -1010,7 +1040,7 @@
           "moduleName": "./src/main.js",
           "type": "cjs require",
           "userRequest": "./modules/b",
-          "loc": "7:9-31"
+          "loc": "9:9-31"
         }
       ],
       "providedExports": null,
@@ -1019,6 +1049,70 @@
       ],
       "depth": 2,
       "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports.b = undefined;\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _d = require('./d');\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar B = function () {\n    function B() {\n        _classCallCheck(this, B);\n    }\n\n    _createClass(B, [{\n        key: 'say',\n        value: function say() {\n            console.log('say hello b!');\n            (0, _d.d_b)();\n        }\n    }]);\n\n    return B;\n}();\n\nvar b = exports.b = new B();"
+    },
+    {
+      "id": "./src/modules/a.js",
+      "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/modules/a.js",
+      "name": "./src/modules/a.js",
+      "index": 10,
+      "index2": 9,
+      "size": 1146,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
+      "issuerId": "./src/main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi console-polyfill ./src/main.js",
+          "name": "multi console-polyfill ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 1
+          }
+        },
+        {
+          "id": "./src/main.js",
+          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 204,
+            "building": 284
+          }
+        }
+      ],
+      "profile": {
+        "factory": 338,
+        "building": 213,
+        "dependencies": 217
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "type": "cjs require",
+          "userRequest": "./modules/a",
+          "loc": "7:9-31"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports.a = undefined;\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _d = require('./d');\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar A = function () {\n    function A() {\n        _classCallCheck(this, A);\n    }\n\n    _createClass(A, [{\n        key: 'say',\n        value: function say() {\n            console.log('say hello a!');\n            (0, _d.d_a)();\n        }\n    }]);\n\n    return A;\n}();\n\nvar a = exports.a = new A();"
     },
     {
       "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/global.less",
@@ -1043,8 +1137,9 @@
         }
       ],
       "profile": {
-        "factory": 188,
-        "building": 445
+        "factory": 174,
+        "building": 438,
+        "dependencies": 42
       },
       "failed": false,
       "errors": 0,
@@ -1070,28 +1165,28 @@
       "optional": false,
       "prefetched": false,
       "chunks": [],
-      "issuer": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/global.less",
-      "issuerId": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/global.less",
-      "issuerName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/global.less",
+      "issuer": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+      "issuerId": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+      "issuerName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
       "issuerPath": [
         {
-          "id": "./src/globalStyle/global.less",
-          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!/Users/gutakashiken/test/webpack4/node_modules/style-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/global.less",
-          "name": "./src/globalStyle/global.less"
+          "id": "./src/globalStyle/a.less",
+          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!/Users/gutakashiken/test/webpack4/node_modules/style-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+          "name": "./src/globalStyle/a.less"
         },
         {
-          "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/global.less",
-          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/global.less",
-          "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/global.less",
+          "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+          "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
           "profile": {
-            "factory": 188,
-            "building": 445
+            "factory": 172,
+            "building": 295
           }
         }
       ],
       "profile": {
-        "factory": 1,
-        "building": 2
+        "factory": 56,
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -1131,20 +1226,31 @@
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/style-loader/lib/addStyles.js",
           "name": "./node_modules/style-loader/lib/addStyles.js",
           "profile": {
-            "factory": 188,
-            "building": 445
+            "factory": 174,
+            "building": 438,
+            "dependencies": 42
           }
         }
       ],
       "profile": {
-        "factory": 9,
-        "building": 2
+        "factory": 2,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "assets": [],
-      "reasons": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/style-loader/lib/addStyles.js",
+          "moduleIdentifier": "/Users/gutakashiken/test/webpack4/node_modules/style-loader/lib/addStyles.js",
+          "module": "./node_modules/style-loader/lib/addStyles.js",
+          "moduleName": "./node_modules/style-loader/lib/addStyles.js",
+          "type": "cjs require",
+          "userRequest": "./urls",
+          "loc": "64:14-31"
+        }
+      ],
       "providedExports": null,
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
@@ -1175,8 +1281,9 @@
         }
       ],
       "profile": {
-        "factory": 188,
-        "building": 445
+        "factory": 174,
+        "building": 438,
+        "dependencies": 42
       },
       "failed": false,
       "errors": 0,
@@ -1194,8 +1301,8 @@
       "id": "./node_modules/npm-zepto/index.js",
       "identifier": "/Users/gutakashiken/test/webpack4/node_modules/npm-zepto/index.js",
       "name": "./node_modules/npm-zepto/index.js",
-      "index": 11,
-      "index2": 9,
+      "index": 13,
+      "index2": 11,
       "size": 56025,
       "cacheable": true,
       "built": true,
@@ -1222,15 +1329,15 @@
           "identifier": "/Users/gutakashiken/test/webpack4/node_modules/babel-loader/lib/index.js!/Users/gutakashiken/test/webpack4/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 213,
-            "building": 105
+            "factory": 204,
+            "building": 284
           }
         }
       ],
       "profile": {
-        "factory": 280,
-        "building": 240,
-        "dependencies": 243
+        "factory": 338,
+        "building": 213,
+        "dependencies": 217
       },
       "failed": false,
       "errors": 0,
@@ -1244,7 +1351,7 @@
           "moduleName": "./src/main.js",
           "type": "cjs require",
           "userRequest": "npm-zepto",
-          "loc": "9:16-36"
+          "loc": "11:16-36"
         }
       ],
       "providedExports": null,
@@ -1257,6 +1364,254 @@
   ],
   "filteredModules": 0,
   "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/Users/gutakashiken/test/webpack4/dist/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ]
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2454,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "66aeb5376e16503a55ac",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+              "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "index": 0,
+              "index2": 1,
+              "size": 194,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 3,
+                "building": 29
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"body {\\n  background: gray;\\n}\\n\", \"\"]);\n\n// exports\n"
+            },
+            {
+              "id": "./node_modules/css-loader/lib/css-base.js",
+              "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/lib/css-base.js",
+              "name": "./node_modules/css-loader/lib/css-base.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2260,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+              "issuerId": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "issuerName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+                  "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+                  "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+                  "profile": {
+                    "factory": 3,
+                    "building": 29
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 0,
+                "building": 2
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+                  "moduleIdentifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+                  "module": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+                  "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+                  "type": "cjs require",
+                  "userRequest": "../../node_modules/css-loader/lib/css-base.js",
+                  "loc": "1:27-83"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "!!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+          "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+          "index": 0,
+          "index2": 1,
+          "size": 194,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 3,
+            "building": 29
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"body {\\n  background: gray;\\n}\\n\", \"\"]);\n\n// exports\n"
+        },
+        {
+          "id": "./node_modules/css-loader/lib/css-base.js",
+          "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/lib/css-base.js",
+          "name": "./node_modules/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2260,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+          "issuerId": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+          "issuerName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+          "issuerPath": [
+            {
+              "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+              "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "profile": {
+                "factory": 3,
+                "building": 29
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "moduleIdentifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/a.less",
+              "module": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "moduleName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/a.less",
+              "type": "cjs require",
+              "userRequest": "../../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-83"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js!node_modules/less-loader/dist/cjs.js!src/globalStyle/a.less"
+    },
     {
       "errors": [],
       "warnings": [],
@@ -1310,8 +1665,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 2,
-                "building": 17
+                "factory": 5,
+                "building": 19
               },
               "failed": false,
               "errors": 0,
@@ -1357,8 +1712,8 @@
                   "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/global.less",
                   "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/global.less",
                   "profile": {
-                    "factory": 2,
-                    "building": 17
+                    "factory": 5,
+                    "building": 19
                   }
                 }
               ],
@@ -1422,8 +1777,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 2,
-            "building": 17
+            "factory": 5,
+            "building": 19
           },
           "failed": false,
           "errors": 0,
@@ -1469,8 +1824,8 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/css-loader/index.js!/Users/gutakashiken/test/webpack4/node_modules/postcss-loader/lib/index.js!/Users/gutakashiken/test/webpack4/node_modules/less-loader/dist/cjs.js!/Users/gutakashiken/test/webpack4/src/globalStyle/global.less",
               "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/less-loader/dist/cjs.js!./src/globalStyle/global.less",
               "profile": {
-                "factory": 2,
-                "building": 17
+                "factory": 5,
+                "building": 19
               }
             }
           ],
@@ -1571,8 +1926,8 @@
                   "identifier": "/Users/gutakashiken/test/webpack4/node_modules/html-webpack-plugin/lib/loader.js!/Users/gutakashiken/test/webpack4/src/templates/main.html",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/templates/main.html",
                   "profile": {
-                    "factory": 34,
-                    "building": 16
+                    "factory": 41,
+                    "building": 15
                   }
                 },
                 {
@@ -1580,13 +1935,13 @@
                   "identifier": "/Users/gutakashiken/test/webpack4/node_modules/lodash/lodash.js",
                   "name": "./node_modules/lodash/lodash.js",
                   "profile": {
-                    "factory": 149,
-                    "building": 310
+                    "factory": 158,
+                    "building": 282
                   }
                 }
               ],
               "profile": {
-                "factory": 6,
+                "factory": 36,
                 "building": 3
               },
               "failed": false,
@@ -1634,8 +1989,8 @@
                   "identifier": "/Users/gutakashiken/test/webpack4/node_modules/html-webpack-plugin/lib/loader.js!/Users/gutakashiken/test/webpack4/src/templates/main.html",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/templates/main.html",
                   "profile": {
-                    "factory": 34,
-                    "building": 16
+                    "factory": 41,
+                    "building": 15
                   }
                 },
                 {
@@ -1643,13 +1998,13 @@
                   "identifier": "/Users/gutakashiken/test/webpack4/node_modules/lodash/lodash.js",
                   "name": "./node_modules/lodash/lodash.js",
                   "profile": {
-                    "factory": 149,
-                    "building": 310
+                    "factory": 158,
+                    "building": 282
                   }
                 }
               ],
               "profile": {
-                "factory": 6,
+                "factory": 36,
                 "building": 3
               },
               "failed": false,
@@ -1693,8 +2048,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 34,
-                "building": 16
+                "factory": 41,
+                "building": 15
               },
               "failed": false,
               "errors": 0,
@@ -1740,14 +2095,14 @@
                   "identifier": "/Users/gutakashiken/test/webpack4/node_modules/html-webpack-plugin/lib/loader.js!/Users/gutakashiken/test/webpack4/src/templates/main.html",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/templates/main.html",
                   "profile": {
-                    "factory": 34,
-                    "building": 16
+                    "factory": 41,
+                    "building": 15
                   }
                 }
               ],
               "profile": {
-                "factory": 149,
-                "building": 310
+                "factory": 158,
+                "building": 282
               },
               "failed": false,
               "errors": 0,
@@ -1809,8 +2164,8 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/html-webpack-plugin/lib/loader.js!/Users/gutakashiken/test/webpack4/src/templates/main.html",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/templates/main.html",
               "profile": {
-                "factory": 34,
-                "building": 16
+                "factory": 41,
+                "building": 15
               }
             },
             {
@@ -1818,13 +2173,13 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 149,
-                "building": 310
+                "factory": 158,
+                "building": 282
               }
             }
           ],
           "profile": {
-            "factory": 6,
+            "factory": 36,
             "building": 3
           },
           "failed": false,
@@ -1872,8 +2227,8 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/html-webpack-plugin/lib/loader.js!/Users/gutakashiken/test/webpack4/src/templates/main.html",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/templates/main.html",
               "profile": {
-                "factory": 34,
-                "building": 16
+                "factory": 41,
+                "building": 15
               }
             },
             {
@@ -1881,13 +2236,13 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 149,
-                "building": 310
+                "factory": 158,
+                "building": 282
               }
             }
           ],
           "profile": {
-            "factory": 6,
+            "factory": 36,
             "building": 3
           },
           "failed": false,
@@ -1931,8 +2286,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 34,
-            "building": 16
+            "factory": 41,
+            "building": 15
           },
           "failed": false,
           "errors": 0,
@@ -1978,14 +2333,14 @@
               "identifier": "/Users/gutakashiken/test/webpack4/node_modules/html-webpack-plugin/lib/loader.js!/Users/gutakashiken/test/webpack4/src/templates/main.html",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/templates/main.html",
               "profile": {
-                "factory": 34,
-                "building": 16
+                "factory": 41,
+                "building": 15
               }
             }
           ],
           "profile": {
-            "factory": 149,
-            "building": 310
+            "factory": 158,
+            "building": 282
           },
           "failed": false,
           "errors": 0,

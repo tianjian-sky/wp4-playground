@@ -17,32 +17,6 @@ module.exports = {
     },
     resolve: {
     },
-    plugins: [
-        // new ExtractTextPlugin('style.[chunkhash].css'),  // extractTextPlugin 使用chunkhash
-        new ExtractTextPlugin('style.css？[chunkhash]'),
-        new HtmlWebpackPlugin({
-            filename: 'main.html',
-            template: './src/templates/main.html',
-            inject: 'body',
-            hash: false,
-            minify: {
-                removeComments: true,
-                collapseWhitespace: false
-            },
-            chunksSortMode: 'dependency'
-        }),
-        new webpack.DefinePlugin({
-
-        }),
-        // new webpack.optimize.CommonsChunkPlugin({
-        //     names: ['vendor', 'manifest']
-        // }),
-        new webpack.optimize.ModuleConcatenationPlugin(),
-        //拷贝服务器资源到dist目录
-        // new TransferWebpackPlugin([
-        //     {from: './static'}
-        // ], path.resolve(__dirname, 'src/' + _env.outputName)),
-    ],
     module: {
         rules: [{
             test: /\.js$/,
@@ -90,6 +64,33 @@ module.exports = {
         }
         ]
     },
+    plugins: [
+        // new ExtractTextPlugin('style.[chunkhash].css'),  // extractTextPlugin 使用chunkhash
+
+        new HtmlWebpackPlugin({
+            filename: 'main.html',
+            template: './src/templates/main.html',
+            inject: 'body',
+            hash: false,
+            minify: {
+                removeComments: true,
+                collapseWhitespace: false
+            },
+            chunksSortMode: 'dependency'
+        }),
+        new webpack.DefinePlugin({
+
+        }),
+        new ExtractTextPlugin('style.css？[chunkhash]'),
+        // new webpack.optimize.CommonsChunkPlugin({
+        //     names: ['vendor', 'manifest']
+        // }),
+        new webpack.optimize.ModuleConcatenationPlugin(),
+        //拷贝服务器资源到dist目录
+        // new TransferWebpackPlugin([
+        //     {from: './static'}
+        // ], path.resolve(__dirname, 'src/' + _env.outputName)),
+    ],
     optimization: {
         /*
         上面提到 chunkFilename 指定了 chunk 打包输出的名字，那么文件名存在哪里了呢？
